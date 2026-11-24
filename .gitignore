@@ -1,0 +1,40 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# PHP
+*.php~
+
+# Misc
+.env
+vendor/
+node_modules/
+
+# Never commit uploaded resumes or personal application data
+uploads/*.pdf
+uploads/*
+!uploads/.gitkeep
+
+# Do not ignore source files
+!index.html
+!internships.html
+!apply.html
+!about.html
+!contact.html
+!process.php
+!success.php
+!style.css
+!script.js
+!README.md
